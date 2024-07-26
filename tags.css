@@ -1,0 +1,49 @@
+.tags
+{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  top: 60px;
+  left: 90px;
+  align-items: center;
+  height: 40px;
+  
+  padding-bottom: 30px;
+  gap:25px;
+}
+.tag
+{
+    font-family: Roboto, Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    
+   cursor: pointer;
+}
+.tag-dark
+{
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.tag:hover
+{
+    background-color: white
+}
+.tag-dark:hover
+{
+    background-color: white;
+    color:black;
+}
